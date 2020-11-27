@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <div id="calculator">
+      <div id="screen">
+        <p id="calc-screen">0</p>
+      </div>
+      <div id="buttons">
+        <button onclick="addNumber(this)" value="1">1</button>
+        <button onclick="addNumber(this)">2</button>
+        <button onclick="addNumber(this)">3</button>
+        <button onclick="addNumber(this)">4</button>
+        <button onclick="addNumber(this)">5</button>
+        <button onclick="addNumber(this)">6</button>
+        <button onclick="addNumber(this)">7</button>
+        <button onclick="addNumber(this)">8</button>
+        <button onclick="addNumber(this)">9</button>
+        <button onclick="addNumber(this)">0</button>
+        <button onclick="addOperation(this)">+</button>
+        <button onclick="addOperation(this)">-</button>
+        <button onclick="addOperation(this)">*</button>
+        <button onclick="addOperation(this)">/</button>
+        <button onclick="reset()">CC</button>
+        <button onclick="del()">Del</button>
+        <button onclick="calculate()" id="eq-btn">=</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
